@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="SayronMC BoxPvP sunucusuna katıl! Arenada savaş, ekibini kur ve zirveye çık.">
+  <title>SayronMC — BoxPvP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="SayronMC ana sayfa">
+      <span class="brand-mark">S</span>
+      <span>SAYRON<span class="accent">MC</span><small>BOXPVP NETWORK</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Ana Sayfa</a>
+      <a href="#features">Özellikler</a>
+      <a href="#rules">Kurallar</a>
+      <a href="#store">Mağaza</a>
+      <a href="#community">Topluluk</a>
+    </nav>
+    <button class="button button-small" data-copy-ip>IP'yi Kopyala</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="pulse"></span> TÜRKİYE'NİN YENİ BOX PVP DENEYİMİ</div>
+        <h1>Arenaya gir.<br><span class="gradient-text">Efsaneni yaz.</span></h1>
+        <p class="hero-copy">Ekibini kur, savaşını seç ve SayronMC dünyasında zirveye tırman. Macera burada başlıyor.</p>
+        <div class="hero-actions">
+          <button class="button" data-copy-ip>Sunucu IP'sini Kopyala <span>↗</span></button>
+          <a class="button button-ghost" href="#features">Sunucuyu Keşfet</a>
+        </div>
+        <div class="server-address">
+          <span class="status-dot"></span>
+          <div><small>JAVA SUNUCU ADRESİ</small><strong id="serverIp">Oyna.SayronMC.com</strong></div>
+          <button class="copy-mini" data-copy-ip aria-label="IP adresini kopyala">▢</button>
+        </div>
+        <p class="notice">Sunucu henüz yayında değilse bu adresi daha sonra gerçek IP adresinle güncelle.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Minecraft tarzı bloklu arena illüstrasyonu">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-block block-a"></div><div class="floating-block block-b"></div>
+        <div class="arena">
+          <div class="arena-top"></div><div class="arena-side"></div>
+          <div class="crystal">◆</div>
+        </div>
+        <div class="art-label"><span>✦</span> FIGHT • BUILD • DOMINATE</div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Sunucu özellikleri">
+      <div><span class="stat-icon">⚔</span><strong>BOX PVP</strong><small>Rekabet dolu arena</small></div>
+      <div><span class="stat-icon">✦</span><strong>ÖZEL SİSTEMLER</strong><small>Gelişmeye açık deneyim</small></div>
+      <div><span class="stat-icon">♧</span><strong>TOPLULUK</strong><small>Arkadaşlarınla oyna</small></div>
+      <div><span class="stat-icon">◈</span><strong>GÜNCELLEMELER</strong><small>Yeni içerik hedefi</small></div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading"><div><span class="kicker">SAYRONMC DÜNYASI</span><h2>Savaşmak için daha fazla sebep.</h2></div><p>Bu alanları sunucunda gerçekten bulunan özelliklere göre düzenleyebilirsin.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon green">⚔</div><h3>Hızlı PvP</h3><p>Rakiplerinle karşılaş, yeteneklerini geliştir ve arenada kendi tarzını oluştur.</p><span class="card-number">01 / ARENA</span></article>
+        <article class="feature-card"><div class="feature-icon blue">⬡</div><h3>Gelişim Sistemi</h3><p>İlerleme, ödüller ve hedeflerle oyunculara devam etmek için nedenler sun.</p><span class="card-number">02 / LEVEL</span></article>
+        <article class="feature-card"><div class="feature-icon purple">♜</div><h3>Topluluk Etkinlikleri</h3><p>Etkinlikler ve turnuvalarla arkadaşlarınla birlikte mücadele et.</p><span class="card-number">03 / EVENT</span></article>
+      </div>
+    </section>
+
+    <section class="join-panel" id="community">
+      <div><span class="kicker">MACERA SENİ BEKLİYOR</span><h2>İlk adımı sen at.</h2><p>Minecraft'ı aç, sunucu adresini ekle ve hazır olduğunda topluluğa katıl.</p></div>
+      <button class="button" data-copy-ip>IP'yi Kopyala <span>↗</span></button>
+    </section>
+
+    <section class="section split-section" id="rules">
+      <div><span class="kicker">ADİL OYUN, İYİ TOPLULUK</span><h2>Arenada saygı,<br>her zaman öncelik.</h2><p class="muted">Oyuncular için kısa ve anlaşılır kurallar. Yayına geçmeden önce kuralları kendi sunucuna göre kesinleştir.</p></div>
+      <div class="rules-list">
+        <div><span>01</span><p><strong>Hile kullanma.</strong><small>Haksız avantaj sağlayan yazılımlar yasaktır.</small></p></div>
+        <div><span>02</span><p><strong>Oyunculara saygı göster.</strong><small>Hakaret, taciz ve ayrımcılıktan kaçın.</small></p></div>
+        <div><span>03</span><p><strong>Yetkililerin yönlendirmelerine uy.</strong><small>Destek için uygun kanalları kullan.</small></p></div>
+      </div>
+    </section>
+
+    <section class="section store-section" id="store">
+      <div class="section-heading"><div><span class="kicker">DESTEKÇİ MAĞAZASI</span><h2>Mağaza yakında.</h2></div><p>Satışları ancak ödeme, teslimat ve sunucu sistemleri hazır olduğunda etkinleştir.</p></div>
+      <div class="store-placeholder"><span class="store-symbol">◇</span><div><strong>SayronMC Mağazası</strong><p>Rank ve kozmetik seçenekleri daha sonra burada yer alabilir.</p></div><span class="coming-soon">YAKINDA</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">S</span><span>SAYRON<span class="accent">MC</span><small>BOXPVP NETWORK</small></span></a>
+    <p>© <span id="year"></span> SayronMC. Tüm hakları saklıdır.</p>
+    <a href="#rules">Sunucu Kuralları</a>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
